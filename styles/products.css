@@ -92,7 +92,7 @@ body{
 .main-camera{
     width: 400px;
     height: 414px;
-    background-image: url('/images/Circle\ design.svg');
+    background-image: url('../images/Circle\ design.svg');
     background-position: center;
     background-size: cover;
 }
