@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear Pactice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../styles/products.css">
 </head>
 
@@ -12,13 +13,13 @@
     <header class="header-container">
         <nav class="display-flex">
             <h3 class="influencer text-gray">Influencer products</h3>
-            <ul class="display-flex">
+            <ul class="flex-nav-links">
                 <li class="list-items"><a href="" class="nav-link">Home</a></li>
                 <li class="list-items"><a href="" class="nav-link">Products</a></li>
-                <li class="list-items"><a href="" class="nav-link">Sign up</a></li>
-                <li class="list-items"><a href="" class="nav-link">Log In</a></li>
-                <li class="list-items"><a href="" class="nav-link"><img width="20px" src="images/icons8-search-30.png"
-                            alt=""></a></li>
+                <li class="list-items"><a href="" class="nav-link">SignUp</a></li>
+                <li class="list-items"><a href="" class="nav-link">LogIn</a></li>
+                <li class="list-items"><a href="" class="nav-link" id="display-none"><img width="20px"
+                            src="images/icons8-search-30.png" alt=""></a></li>
                 <li class="list-items"><a href="" class="nav-link"><img width="20px" src="../images/icons8-paid-48.png"
                             alt=""></a></li>
             </ul>
@@ -27,16 +28,20 @@
             <div class="banner-container">
                 <div class="banner-content">
                     <h1 class="text-gray banner-title">Start your Journey as Influencer</h1>
-                    <p class="text-gray sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed
+                    <p class="text-gray sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+                        vestibulum sed
                         scelerisque eros. Lectus faucibus.</p>
-                    <button class="btn-icon">Preebook now <img width="20px" src="images/icons8-arrow-24.png" alt=""></button>
+                    <div class="btn-flex-center">
+                        <button class="btn-icon">Preebook now <img width="20px" src="images/icons8-arrow-24.png"
+                                alt=""></button>
+                    </div>
                 </div>
                 <div class="main-camera">
                     <img src="images/main-camera.png" alt="">
                 </div>
             </div>
         </section>
-        <section>
+        <section class="longo-icons">
             <div class="grid-layout-icons">
                 <div>
                     <img src="logos/Alibaba.svg" alt="">
@@ -63,10 +68,224 @@
         </section>
     </header>
     <main>
-
+        <section class="main-container-popular-collection">
+            <h3 class="popular">Popular Collection</h3>
+            <div class="popular-product-items">
+                <!-- card 1 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/tripod.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Flex Tripod</h4>
+                            <h3 class="balance">$50.48</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/mic.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">microphone</h4>
+                            <h3 class="balance">$120.25</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/airpod.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Airbuds</h4>
+                            <h3 class="balance">$100.00</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/drone.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Drone</h4>
+                            <h3 class="balance">$980.25</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/lights.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Light Setup</h4>
+                            <h3 class="balance">$1200.00</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/setup.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Photoshoot set</h4>
+                            <h3 class="balance">$820.40</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/camera.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Vlogging Camera</h4>
+                            <h3 class="balance">$1800.80</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/single-light.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Green Screen</h4>
+                            <h3 class="balance">$25.48</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 9 -->
+                <div class="card-container">
+                    <div class="card-content">
+                        <img class="action" src="images/action.png" alt="">
+                        <div class="margin-left">
+                            <h4 class="flex-tripod">Action Camera</h4>
+                            <h3 class="balance">$380.00</h3>
+                            <div class="flex-rating">
+                                <div>
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                    <img width="20px" src="../images/icons8-rating-48.png" alt="">
+                                </div>
+                                <h5 class="viwes">4.99</h5>
+                            </div>
+                            <p class="wordwide">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div>
+                <h3 class="see-more">See More <img width="20px" src="images/icons8-arrow-24.png"
+                    alt=""></h3>
+               </div>
+        </section>
+        <!-- Featured products at one place -->
+        <section class="featured-product">
+            <div class="display-flex">
+                <div class="grear-png">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="margin-center">
+                    <h1 class="featured-products featrured">Featured products at one place</h1>
+                    <p class="amet-minim">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div class="btn-flex-center">
+                        <button class="btn-icon">Preebook now <img width="20px" src="images/icons8-arrow-24.png"
+                                alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="background-color">
+        <div class="footer-section">
+            <h3 class="text-center product">Influencer products</h3>
+            <p class="text-center copyright">Copyright © 2020  influencer products</p>
+            <p class="text-center all">All rights reserved</p>
+        </div>
+        <div class="icons-social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-globe"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
     </footer>
 </body>
 
